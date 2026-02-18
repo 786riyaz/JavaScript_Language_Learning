@@ -10,3 +10,5 @@ object methods
 	freeze, seal
 	
 what is promise with fetch
+
+JSON.stringify Method with parameters
