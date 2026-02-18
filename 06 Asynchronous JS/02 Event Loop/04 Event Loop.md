@@ -93,6 +93,3 @@ D
 👉 **nextTick > Promises > Timeout > Immediate**
 
 ---
-
-If you want, I can convert this into
-✔ a PDF, ✔ a diagram image, or ✔ add real FAANG-level tricky questions.

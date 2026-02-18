@@ -26,4 +26,4 @@ const user = {
 };
 
 user.greet();      // Output: Hello, I am Neo.
-user.arrowGreet(); // Output: Hello, arrow function 'this.name' is undefined. (Unless a global 'name' exists)
+user.arrowGreet(); // Output: Hello, arrow function 'this.name' is undefined. // (Unless a global 'name' exists)

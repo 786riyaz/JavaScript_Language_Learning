@@ -11,7 +11,7 @@ Each type of variable has specific rules for scope, re-declation and reassignmen
 
 var
 Introduced : introduced in Early JavaScript version
-Scopre : Function Scope ( Not Block Scoped)
+Scope : Function Scope ( Not Block Scoped)
 Redeclaration : Allowed in the same scope
 Hoisting : Hoisted to the top of its scope but initialized as undefined.
 Use Case : Outdated, Avoid using in modern JavaScript.

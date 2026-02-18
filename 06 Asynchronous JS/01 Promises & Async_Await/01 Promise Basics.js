@@ -13,23 +13,22 @@ let final = false;
 
 const p = new Promise((resolve, reject) => {
   setTimeout(() => {
-  if (!final) {
-    reject("Error: Operation failed.");
-    return;
-  }
+    if (!final) {
+      reject("Error: Operation failed.");
+      return;
+    }
     resolve("Success!");
   }, 1000);
 });
 
-p.then(value => console.log(value))
- .catch(err => {
-  console.error("Handling error:");
-  console.error(err)
-})
- 
- .finally(() => console.log("Promise settled."));
+p.then((value) => console.log(value))
+  .catch((err) => {
+    console.error("Handling error:");
+    console.error(err);
+  })
+  .finally(() => console.log("Promise settled."));
 
- /*
+/*
 # 1. Creating a Promise
 A Promise is created using the Promise constructor, which takes a function with two parameters: resolve and reject.
 =======================================================================
