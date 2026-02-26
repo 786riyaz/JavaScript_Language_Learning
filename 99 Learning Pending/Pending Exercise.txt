@@ -1,0 +1,92 @@
+strict mode in JavaScript
+NaN
+closure - data privacy, setTimeout, memoization, function factory
+arrow function vs regular function
+call, apply, bind
+Function hoisting nuance
+prototype and proto
+Freeze vs seal vs preventExtensions
+WeakMap vs Map
+array vs typed arrays
+array.flat
+array buffer
+Float32Array and Uint8Array
+all vs race vs allSettled vs any
+AbortController
+DOM and BOM
+addEventListener options
+Event delegation
+Same Origin Policy and CORS and CQRS
+dynamic import()
+Transpile vs polyfill
+What are source maps
+Generators
+Debounce vs throttle
+What is XSS
+CSRF
+
+
+Why avoid eval?  
+Answer :: eval executes strings as code, disabling many engine optimizations and introducing security risks like injection, making safer alternatives preferable.
+
+ESM vs CommonJS?  
+Answer :: ESM has static import/export and live bindings friendly to tree-shaking, while CommonJS uses require/module.exports with dynamic loading semantics and value copies at import time.
+
+
+string methods
+promise related functions
+closure
+working on indexes in databases
+streams
+when we can use multi threading
+
+polyfils
+stream
+closure with setTimeOut
+setImmediate
+curring
+sql qeury for finding 3rd max
+mongodb for finding 3rd max
+js vs nodejs
+MVCC
+EC2 with frontend
+ORM
+cluster vs child processes
+web worker vs child processes
+socket io
+socket broadcast
+virtual dom
+what can we do if the page takes much time to load first
+
+prototype chaining
+
+First Class Function
+First Order Function
+Higher Order Function
+
+
+Block Variable
+    {
+        var a = 1;
+        let b = 2;
+        const c = 3;
+    }
+    console.log(a,b,c)
+
+
+    
+==============================================================================
+module.export vs export
+default export rename
+
+throttling
+
+array methods
+	indexof, find, some, map, filter, flat
+	
+object methods 
+	freeze, seal
+	
+what is promise with fetch
+
+JSON.stringify Method with parameters
