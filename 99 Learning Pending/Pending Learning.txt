@@ -1,3 +1,5 @@
+encodeURIComponent
+
 Async nature of js
 forgiving language
 hoisting
@@ -14,3 +16,37 @@ DSA
 CodeWithHarry ::: JavaScript Tutorials In Hindi
 https://www.youtube.com/playlist?list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL
 66 Videos
+
+
+Date
+var d = new Date("2010-01-10");
+var w = new Date("APRIL, 10, 2020");
+var s = new Date("Sep, 05, 1998");
+var r = new Date("Apr, 05, 1970");
+var t = w.getTime();
+var n = r.getTime();
+var a = s.getTime();
+// d.setDate("Nov, 10, 1980");
+// d.setFullYear(2018);
+d.setDate(d.getDate() + 100);
+// d.setMonth(11);
+
+Math
+Math.floor(m)
+Math.round(m)
+Math.ceil(m)
+Math.abs(-5.4444)
+Math.sqrt(100)
+Math.pow(10, 2)
+var m = Math.PI;
+var rNum = Math.ceil(Math.random() * 99);
+
+Window
+window.open(url, "_blank", opt);
+win.close();
+
+String
+toLowerCase
+toLowerCase
+substr
+replace
