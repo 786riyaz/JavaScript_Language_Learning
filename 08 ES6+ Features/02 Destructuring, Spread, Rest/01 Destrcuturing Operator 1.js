@@ -1,5 +1,6 @@
 /*
 https://www.w3schools.com/js/js_destructuring.asp
+
 The destructuring assignment syntax unpack object properties into variables:
 let {firstName, lastName} = person;
 

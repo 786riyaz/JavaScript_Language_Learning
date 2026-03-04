@@ -48,7 +48,7 @@
                 var t = c[x].replace(/^\s+|\s+$/gm, '');
                 if (t.indexOf(p) == 0) {
                     return t.substring(p.length, t.length);
-                    // console.log(t);
+                    console.log(t);
 
                 }
             }
@@ -59,6 +59,7 @@
             cCookie(name, "", -1);
         }
         var myCookie = rCookie('test');
+        console.log("myCookie: ", myCookie);
     </script>
 
 
