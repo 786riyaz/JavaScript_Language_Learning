@@ -1,0 +1,26 @@
+𝗖𝗼𝗿𝗲 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁
+Explain event delegation.
+What are closures and where are they useful?
+Difference between == and ===.
+What is hoisting?
+Explain the behavior of the this keyword.
+How do promises, async/await, and callbacks differ?
+What are debouncing and throttling?
+
+𝗛𝗧𝗠𝗟 & 𝗖𝗦𝗦
+What are semantic HTML tags and why are they important?
+Difference between block, inline, and inline-block elements.
+How does Flexbox differ from Grid?
+How can you improve CSS performance?
+What are pseudo-classes and pseudo-elements?
+
+𝗥𝗲𝗮𝗰𝘁 (or Modern Frameworks)
+Explain the virtual DOM and how it improves performance.
+What are React Hooks?
+How does state management work (Context API, Redux, etc.)?
+Difference between controlled and uncontrolled components.
+Explain useEffect and common pitfalls associated with it.
+Performance & Optimization
+How do you optimize frontend performance?
+What are lazy loading and code splitting?
+How do browsers render a webpage (Critical Rendering Path)?
