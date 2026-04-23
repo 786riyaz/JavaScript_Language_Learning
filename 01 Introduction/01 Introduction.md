@@ -17,7 +17,7 @@ JavaScript adds **behavior** to web pages.
 ## History of JavaScript
 
 - **1995**  
-  Brendan Eich created JavaScript in just **10 days** for Netscape to make web pages interactive.
+  Brendan Eich created JavaScript in just **10 days** for Netscape(Browser) to make web pages interactive.
 
 - **1996**  
   Introduced in **Netscape Navigator**.  
