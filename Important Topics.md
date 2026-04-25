@@ -13,12 +13,15 @@ can we check the memory location of data?
 
 
 ============================================
+
 Map to Array 
 const user = new Map([
-    ["name", "Riyaz],
+    ["name", "Riyaz"],
     ["age", 25],
     ["city", "Ahmedabad"]
 ])
+
+============================================
 
 
 JavaScript number are 64 bit floating number.
