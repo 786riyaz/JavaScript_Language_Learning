@@ -14,7 +14,7 @@ n = 9
 console.log(stringVariable.slice(4,8));             //z Kh
 console.log(stringVariable.substring(4,8));         //z Kh
 
-// The slice function will return an emply string if the start index is greateer than end index
+// The slice function will return an emply string if the start index is greater than end index
 console.log(stringVariable.slice(8,4));             //""
 console.log(stringVariable.substring(8,4));         //z Kh
 

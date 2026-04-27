@@ -18,18 +18,18 @@
 
 Without async:
 
-* Browser would freeze
-* Network requests would block UI
-* Long tasks would stop execution
+- Browser would freeze
+- Network requests would block UI
+- Long tasks would stop execution
 
 ---
 
 ### Real-World Example
 
-* Fetching data from server
-* Reading files
-* Timers (`setTimeout`)
-* API calls
+- Fetching data from server
+- Reading files
+- Timers (`setTimeout`)
+- API calls
 
 ---
 
@@ -176,9 +176,9 @@ setTimeout(() => {
 
 Problems:
 
-* Hard to read
-* Hard to maintain
-* Difficult error handling
+- Hard to read
+- Hard to maintain
+- Difficult error handling
 
 ---
 
@@ -190,9 +190,9 @@ Problems:
 
 A **Promise** represents a value that will be:
 
-* **Resolved** (success)
-* **Rejected** (failure)
-* **Pending** (initial state)
+- **Resolved** (success)
+- **Rejected** (failure)
+- **Pending** (initial state)
 
 ---
 
@@ -228,8 +228,8 @@ const promise = new Promise((resolve, reject) => {
 });
 
 promise
-  .then(result => console.log(result))
-  .catch(error => console.log(error))
+  .then((result) => console.log(result))
+  .catch((error) => console.log(error))
   .finally(() => console.log("Done"));
 ```
 
@@ -274,7 +274,7 @@ async function fn() {
 
 ```js
 function getData() {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     setTimeout(() => resolve("Data Loaded"), 1000);
   });
 }
@@ -334,17 +334,17 @@ fetchData();
 
 Restaurant:
 
-* You → Client
-* Menu → API
-* Kitchen → Server
+- You → Client
+- Menu → API
+- Kitchen → Server
 
 ---
 
 ### API Types
 
-* REST API
-* GraphQL API
-* SOAP API
+- REST API
+- GraphQL API
+- SOAP API
 
 ---
 
@@ -374,9 +374,9 @@ Restaurant:
 
 ```js
 fetch(url)
-  .then(response => response.json())
-  .then(data => console.log(data))
-  .catch(error => console.log(error));
+  .then((response) => response.json())
+  .then((data) => console.log(data))
+  .catch((error) => console.log(error));
 ```
 
 ---
@@ -385,8 +385,8 @@ fetch(url)
 
 ```js
 fetch("https://jsonplaceholder.typicode.com/users/1")
-  .then(res => res.json())
-  .then(data => console.log(data.name));
+  .then((res) => res.json())
+  .then((data) => console.log(data.name));
 ```
 
 ---
@@ -407,8 +407,8 @@ getUser();
 
 ### Important Notes
 
-* `fetch` **does not reject on HTTP errors (404, 500)**
-* Must manually check `response.ok`
+- `fetch` **does not reject on HTTP errors (404, 500)**
+- Must manually check `response.ok`
 
 ---
 
@@ -468,9 +468,10 @@ Axios is a **promise-based HTTP client**.
 ### GET Request Example
 
 ```js
-axios.get("https://jsonplaceholder.typicode.com/users/1")
-  .then(res => console.log(res.data.name))
-  .catch(err => console.log(err));
+axios
+  .get("https://jsonplaceholder.typicode.com/users/1")
+  .then((res) => console.log(res.data.name))
+  .catch((err) => console.log(err));
 ```
 
 ---
@@ -479,7 +480,7 @@ axios.get("https://jsonplaceholder.typicode.com/users/1")
 
 ```js
 axios.post("/users", {
-  name: "Riyaz"
+  name: "Riyaz",
 });
 ```
 
@@ -500,16 +501,16 @@ axios.post("/users", {
 | -------------- | -------- | ------- | ----------- |
 | Readability    | Low      | Medium  | High        |
 | Error Handling | Hard     | Better  | Best        |
-| Chaining       | ❌        | ✅       | ✅           |
-| Modern Usage   | ❌        | ✅       | ✅           |
+| Chaining       | ❌       | ✅      | ✅          |
+| Modern Usage   | ❌       | ✅      | ✅          |
 
 ---
 
 ## 🔟 Final Interview Summary
 
-* JS is **single-threaded**
-* Async prevents blocking
-* Callbacks → Promises → async/await (evolution)
-* APIs enable communication
-* `fetch` is native, Axios is powerful
-* Event loop enables async behavior
+- JS is **single-threaded**
+- Async prevents blocking
+- Callbacks → Promises → async/await (evolution)
+- APIs enable communication
+- `fetch` is native, Axios is powerful
+- Event loop enables async behavior
