@@ -1,4 +1,3 @@
-*** JavaScript ***
 Destructuring in JS
 async await
 
