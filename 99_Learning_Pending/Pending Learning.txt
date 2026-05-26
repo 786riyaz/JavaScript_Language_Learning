@@ -65,3 +65,30 @@ c.has("Riyaz")
 c.delete("Riyaz")
 for (let item of c){log (item)}
 const myArray = Array.from(c)
+
+
+Javascript ::: array 
+declaration ===> let arr = []
+declaration and initialization ===> let arr = [1,2,3]
+why array index starts from 0?
+
+javascript sleep method
+
+bit wise operator
+shift left <<	n<<x=nx2 raise to x
+shift right >>	n>>x=n/2 raise to x
+
+Array is pass by reference so
+These modify original array:
+nums[i] = value
+nums.push()
+nums.pop()
+nums.splice()
+nums.reverse()
+
+These do NOT:
+nums = anotherArray
+nums = nums.slice()
+nums = nums.concat()
+
+Javascript String Methods :: https://www.w3schools.com/js/js_string_methods.asp
