@@ -50,3 +50,18 @@ toLowerCase
 toLowerCase
 substr
 replace
+
+
+what is hash, hashing, map, set
+
+b = new Map()
+b.set(1,5)
+b.get(4)
+
+c = new Set()
+c.add(5)
+c.size
+c.has("Riyaz")
+c.delete("Riyaz")
+for (let item of c){log (item)}
+const myArray = Array.from(c)
